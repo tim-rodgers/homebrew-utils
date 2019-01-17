@@ -17,7 +17,7 @@ url "https://github.com/tim-rodgers/awsassume/archive/v0.1.tar.gz"
 sha256 "7d8cc12cdc72a5c0f3aff3f6e583db7deef53640262b37879808918c02a1a115"
 head "https://github.com/tim-rodgers/awsassume"
 
-deps = %w [
+deps = %w[
     github.com/aws/aws-sdk-go d2d8f8c33f49af99cdd889f6897ffd525c520407
     github.com/go-ini/ini 6ed8d5f64cd79a498d1f3fab5880cc376ce41bbe
     github.com/mitchellh/go-homedir ae18d6b8b3205b561c79e8e5f69bff09736185f4
