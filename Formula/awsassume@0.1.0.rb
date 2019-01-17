@@ -1,6 +1,6 @@
 require "language/go"
 
-class AwsAssume < Formula
+class AwsassumeAT010 < Formula
 
 desc "A utility to make assuming roles with the AWS CLI easier"
 url "https://github.com/tim-rodgers/awsassume/archive/v0.1.tar.gz"
