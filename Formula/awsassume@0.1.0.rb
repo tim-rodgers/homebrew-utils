@@ -1,12 +1,12 @@
 require "language/go"
 
 class AwsassumeAT010 < Formula
-    
+
 require "language/go"
 
 desc "A utility to make assuming roles with the AWS CLI easier"
 url "https://github.com/tim-rodgers/awsassume/archive/v0.1.tar.gz"
-sha256 "7d8cc12cdc72a5c0f3aff3f6e583db7deef53640262b37879808918c02a1a115"
+sha256 "027ef8a495c925b99cfea31b967efa9906c24844f5a02a5fb230d70847780055"
 head "https://github.com/tim-rodgers/awsassume"
 
 deps = %w[
