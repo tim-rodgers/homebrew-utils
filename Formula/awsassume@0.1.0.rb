@@ -29,6 +29,7 @@ deps.each_slice(2) do |x,y|
     go_resource x do
         url "https://#{x}.git", :revision => y
     end
+end
 
 
 
