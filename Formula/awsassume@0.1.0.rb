@@ -31,7 +31,7 @@ end
     ENV["GOPATH"] = buildpath
 
 
-    bin_path = buildpath/"src/github.com/kevinburke/hostsfile"
+    bin_path = buildpath/"src/github.com/tim-rodgers/awsassume"
     # Copy all files from their current location (GOPATH root)
     # to $GOPATH/src/github.com/kevinburke/hostsfile
     bin_path.install Dir["*"]
@@ -41,7 +41,7 @@ end
     cd bin_path do
       # Install the compiled binary into Homebrew's `bin` - a pre-existing
       # global variable
-      system "go", "build", "-o", bin/"hostsfile", "."
+      system "go", "build", "-o", bin/"awsassume", "."
     end
   end
 
