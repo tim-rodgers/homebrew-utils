@@ -4,7 +4,7 @@ class AwsassumeAT010 < Formula
 
 desc "A utility to make assuming roles with the AWS CLI easier"
 url "https://github.com/tim-rodgers/awsassume/releases/download/v0.1/awsassume.tar.gz"
-sha256 "d5a38240ee4aa2650411790226620cdd5aba438cd6aae944ce53585543392cbc"
+sha256 "7d8cc12cdc72a5c0f3aff3f6e583db7deef53640262b37879808918c02a1a115"
 head "https://github.com/tim-rodgers/awsassume"
 
 def install
