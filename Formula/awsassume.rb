@@ -3,8 +3,8 @@ require "language/go"
 class Awsassume < Formula
 
 desc "A utility to make assuming roles with the AWS CLI easier"
-url "https://github.com/tim-rodgers/awsassume/releases/download/v0.2.1/awsassume.tar.gz"
-sha256 "7008479688d8b0cca8a6c4d178176eecc8d182376b31a7d3d15da98c5c2fc99e"
+url "https://github.com/tim-rodgers/awsassume/releases/download/v0.3/awsassume-v0.3.tar.gz"
+sha256 "3e7374464ed40cf498ab0b134b017baa2fa4877970fc424bffd73c19b4132ca2"
 head "https://github.com/tim-rodgers/awsassume"
 
 def install
